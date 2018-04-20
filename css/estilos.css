@@ -1,38 +1,85 @@
 .cinema-body {
-  background-color: gray;
+  background: url(../img/sala-de-cine.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.logo-img {
+ height: 100px;
 }
 .navbar-inverse {
   min-height: 10%;
-  background: #04396C;
+  background: #4E51D8 0.95;
   border: none;
 }
 .container-fluid {
   margin-top: 64px;
 }
 .jumbotron {
-  background-color: #26527C;
+  background: url(../img/Rollo.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 500px;
   margin-bottom: 0px;
   border-radius: 0px !important;
 }
+.jumbotron-img {
+  margin-top: 20px;
+}
+.jumbotron-text {
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+.redes-sociales {
+  margin-top: 20px;
+  }
+.redes-sociales img {
+  height: 40px;
+}
+.welcome-title {
+  color: white;
+  margin-right: 10px;
+}
 .titulo-cartelera {
   min-height: 45px;
-  background-color: #0C5AA6;
+  background-color: #0C5AA6 0.95;
+}
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
 }
 .movies-row {
-  background-color: #679ED3;
+  background-color: rgba(0, 0, 12, 0.8) ;
   min-height: 350px;
   padding-left: 15px;
   padding-right: 15px;
 }
+.movie-title {
+  color: white;
+}
+.img-movies {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
 .movies-column {
   margin-top: 5px;
-  background-color: #4088D3;
+  background-color: #4088D3 0.95;
   min-height: 330px;
   border: 1px dashed white;
 }
 .left-column {
   border-right: 1px dashed white;
+}
+.services-text {
+  color: #FFFF;
+  margin-top: 13px;
 }
 @media (max-width 770px) {
   .right-column {
@@ -47,4 +94,21 @@
   .jumbotron {
     min-height: 350px;
   }
+  h2 {
+    font-size: 22px;
+  }
+  .titulo-cartelera {
+    font-size: 15px;
+  }
+  .jumbotron {
+    min-height: 400px;
+  }
+  .jumbotron-img {
+    margin-top: 20px;
+  }
+  .img-movies {
+  height: 133px;
+  padding: 6px;
+  margin-top: 22px;
+}
 }
