@@ -172,7 +172,7 @@
           <form class="role" action="index.html" method="post">
             <fieldset>
               <div class="form-group text-center">
-                <legend>Datos Personales</legend>
+                <legend class="user-data">Datos Personales</legend>
                 <input class="form-contol input-element" type="name" name="nombre" id="nombre" placeholder="Nombre Completo">
                 <input class="form-contol input-element"type="email" name="email" id="email" placeholder="Correo electrónico">
                 <input class="form-contol input-element"type="number" name="telefono" id="telefono" placeholder="Teléfono">
@@ -180,6 +180,26 @@
               </div>
               <div class="form-group text-center">
                 <legend class="user-data">Elige tus categorias favoritas</legend>
+                <input type="checkbox" name="Accion" id="Accion">
+                <label class="label-class" for="Accion">Acción</label>
+                <input type="checkbox" name="Horror" id="Horror">
+                <label class="label-class" for="Horror">Horror</label>
+                <input type="checkbox" name="Comedia" id="Comedia">
+                <label class="label-class" for="Comedia">Comedia</label>
+                <input type="checkbox" name="Drama" id="Drama">
+                <label class="label-class" for="Drama">Drama</label>
+                <input type="checkbox" name="Ciencia_Ficción" id="Ciencia_Ficción">
+                <label class="label-class" for="Ciencia_Ficción">Ciencia Ficción</label>
+              </div>
+              <div class="text-center">
+                <legend class="user-data">¿Desea recibir correo de nuestro sitio?</legend>
+                <input type="radio" name="Si" id="Si">
+                <label class="label-class" for="Si">Si</label>
+                <input type="radio" name="No" id="No">
+                <label class="label-class "for="No">No</label>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-primary form-contol btn-save" type="button" name="button">Guardar</button>
 
               </div>
             </fieldset>
