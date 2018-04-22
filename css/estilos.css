@@ -1,5 +1,6 @@
 .cinema-body {
   background: url(../img/sala-de-cine.jpg);
+  background-attachment: scroll;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -15,10 +16,11 @@
   border: none;
 }
 .container-fluid {
-  margin-top: 64px;
+  margin-top: 73px;
 }
 .jumbotron {
   background: url(../img/Rollo.jpeg);
+  background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,6 +29,7 @@
   border-radius: 0px !important;
 }
 .jumbotron-img {
+  width: 220px;
   margin-top: 20px;
 }
 .jumbotron-text {
@@ -35,17 +38,18 @@
   margin-top: 20px;
 }
 .redes-sociales {
-  margin-top: 20px;
+  margin-top: 30px;
   }
 .redes-sociales img {
   height: 40px;
+  width: 40px;
 }
 .welcome-title {
   color: white;
   margin-right: 10px;
 }
 .titulo-cartelera {
-  min-height: 45px;
+  min-height: 35px;
   background-color: rgba(102, 153, 255, 0.50);
 }
 .titulo-text {
@@ -60,6 +64,12 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.movies-row-last {
+  background: rgba(0, 0, 12, 0.8);
+  min-height: 425px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .movie-title {
   color: white;
 }
@@ -70,12 +80,14 @@
 }
 .movies-column {
   margin-top: 5px;
-  background-color: rgba(179, 217, 255, 0.30);
   min-height: 330px;
   border: 1px dashed white;
 }
 .left-column {
   border-right: 1px dashed white;
+}
+.row-centered {
+  text-align:center;
 }
 .services-text {
   color: #FFFF;
@@ -93,7 +105,7 @@
   color: white;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 4px;
-  border-style: none;
+  border: none;
   margin-top: 5px;
 }
 .label-class {
@@ -107,17 +119,25 @@
   color: white;
 }
 @media (max-width 770px) {
+  .titulo-text {
+    font-size: 15px;
+  }
   .right-column {
     display: none;
   }
   .movies-row {
-    min-height: 250px;
+    min-height: 400px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .container-fluid {
+    margin-top: 60px;
   }
   .movies-column {
     min-height: 230px;
   }
   .jumbotron {
-    min-height: 350px;
+    min-height: 380px;
   }
   h2 {
     font-size: 22px;
@@ -125,15 +145,13 @@
   .titulo-cartelera {
     font-size: 15px;
   }
-  .jumbotron {
-    min-height: 400px;
-  }
   .jumbotron-img {
+    width: 150px;
     margin-top: 20px;
   }
   .img-movies {
   height: 133px;
   padding: 6px;
   margin-top: 22px;
-}
+  }
 }
